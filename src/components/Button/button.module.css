@@ -1,0 +1,34 @@
+.btn{
+    width: 70%;
+    padding: 1.2em 1.5em;
+    background-color: none;
+    border: 1px solid white;
+    border-radius: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 0.9em;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: white;
+    color: #333;
+}
+.btn2{
+    width: 70%;
+    padding: 1.2em 1.5em;
+    background-color: none;
+    border: 0.5px solid rgb(50, 50, 50);
+    border-radius: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 0.9em;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+.btn2:hover{
+    background-color: rgb(36, 36, 36);
+    color: #ffffff;
+}

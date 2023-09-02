@@ -1,0 +1,19 @@
+.cont{
+    display: grid;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto 1fr;
+    padding: 50px 40px;
+    color: white;
+    justify-content: space-between;
+    align-items: top;
+    background-color:#252525;
+}
+input{
+    padding: 1em;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100%;
+    color: white;
+}
