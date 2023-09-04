@@ -98,6 +98,7 @@ function StatImg({ style, type, images, link }) {
             <Button title="Read More" style="sub"></Button>
           </div>
         </div>
+
         {type === "dyn" ? (
           <div className="cr-d">
           <div onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} className="carousel-container">

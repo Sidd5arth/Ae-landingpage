@@ -31,15 +31,9 @@ function Footer() {
       <div className={styles.footerInput}>
       <h4 style={{ marginBottom: "1em" }}>Heading</h4>
       <hr style={{ marginBottom: "1em" }} />
-        <input type="Email" placeholder="Email address" />
+        <input type="Email" placeholder="Email address" style={{margin:"15px 0"}}/>
         <div className={styles.checkboxCont}>
           <label className={styles.checkboxLabel}>
-            <input
-              type="checkbox"
-              //   checked={isChecked}
-              //   onChange={toggleCheckbox}
-              className={styles.customCheckbox}
-            />
             <span className="custom-checkbox-design"></span>
             Subscribe to receive communications from Aesop. By subscribing, you
             confirm you have read and understood our privacy policy.

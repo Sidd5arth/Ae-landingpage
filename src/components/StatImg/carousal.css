@@ -59,3 +59,13 @@
 .next-button {
   right: 10px;
 }
+@media screen and (max-width: 864px) {
+  .carousel-container {
+    margin-bottom: 20px;
+    width: 140%;
+    margin-left: 16%;
+    overflow: hidden;
+    position: relative;
+  }
+
+}

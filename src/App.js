@@ -128,7 +128,7 @@ function App() {
       type="dyn" 
       images={images}
       />
-      <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", padding:"150px 50px", gap:"1em", backgroundColor:"#fffef2"}}>
+      <div style={{display:"flex", flexDirection:"column", justifyContent:"center", alignItems:"center", padding:"150px 50px", gap:"1em", textAlign:"center", backgroundColor:"#fffef2"}}>
       <h1>‘Life never becomes a habit to me. It's always a marvel.’</h1>
       <p>Katherine Mansfield</p>
       </div>

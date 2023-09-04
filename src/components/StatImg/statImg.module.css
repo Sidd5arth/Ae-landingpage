@@ -59,16 +59,20 @@
   .container{
       flex-direction: column;
       gap: 3em;
+      padding: 1px;
   }
   .containerRev{
       flex-direction: column;
       gap: 3em;
+      padding: 1px;
   }
   .details{
     color: #333;
     width: 70%;
     height: 100%;
     display: flex;
+    margin-right: 80px;
+    margin-top: 20px;
     flex-direction: column;
     flex-basis: auto;
     margin-right: auto;
@@ -77,6 +81,7 @@
   .detailsRev{
     color: #333;
     width: 70%;
+    margin-top: 20px;
     height: 100%;
     margin-left: 80px;
     display: flex;
@@ -86,8 +91,8 @@
     outline: none;
 }
 .img{
-  margin-left: 220px;
-  width: 90%;
+  margin-left: 20px;
+  width: 100%;
 }
 .imgRev{
   width: 90%;

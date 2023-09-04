@@ -6,7 +6,6 @@ function Navbar() {
         <div className={styles.nav} >
             <ul className={styles.ulStyle}>
                 <li>Skin Care</li>
-                <li>Body & Hand</li>
                 <li>Hair</li>
                 <li>Fragrance</li>
                 <li>home</li>
